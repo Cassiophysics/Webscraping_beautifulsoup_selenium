@@ -1,5 +1,7 @@
 # Práticas de Web Scraping com Python utilizando BeautifulSoup e Selenium
 
+![capa_ws](https://github.com/Cassiophysics/Webscraping_beautifulsoup_selenium/assets/108491443/230a9e58-c92a-4183-adfc-4b9554efef12)
+
 Aqui estão listadas algumas práticas de Web Scraping com Python utilizando as bibliotecas BeautifulSoup e Selenium.
 
 Os sites utilizados para realizar a extração dos dados foram: 
