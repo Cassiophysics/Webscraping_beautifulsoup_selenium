@@ -14,9 +14,9 @@ https://webscraper.io/test-sites/e-commerce/static
 
 https://en.wikipedia.org/wiki/List_of_Academy_Award-winning_films
 
-Apesar dos três primeiros sites serem específicos para a prática de Web Scraping, em todos eles foi verificado através do uso do robots.txt em quais diretórios o acesso era autorizado a raspagem dos dados e a forma como isso era permitido, a fim de respeitar todas as normas da Lei Geral de Proteção de Dados Pessoais (LGPD).
+Apesar dos três primeiros sites serem específicos para a prática de Web Scraping, em todos eles foi verificado, por meio do uso do arquivo robots.txt, quais diretórios permitiam o acesso à raspagem de dados e como isso era autorizado, a fim de cumprir todas as normas da Lei Geral de Proteção de Dados Pessoais (LGPD).
 
-A primeira biblioteca utilizada foi BeautifulSoup, usada para extrair dados de sites em que as páginas são bem estruturadas, onde se obtém o código-fonte da página da Web e a partir disso podemos filtrá-la para encontrar o que for necessário. Assim, BeautifulSoup é relativamente simples de executar e usar, é ideal para os casos em que se conhece a estrutura das páginas da web a se analisar.
+A primeira biblioteca utilizada foi o BeautifulSoup, que é usada para extrair dados de sites com páginas bem estruturadas. Com essa biblioteca, é possível obter o código-fonte da página da Web e filtrá-lo para encontrar as informações necessárias. O BeautifulSoup é relativamente simples de executar e usar, sendo ideal para casos em que a estrutura das páginas da Web a serem analisadas é conhecida.
 
-Ao passo que Selenium é uma ferramenta de renderização de páginas da Web de uso geral, projetada para testes automatizados. Em outros termos, é um webdriver, ou seja, uma ferramenta  que permite a execução do script de teste para analisar os possíveis comportamentos de um usuário real no navegador. É uma opção adequada de Web Scraping quando a página apresenta conteúdo dinâmico e precisa de ações como clicar em botões e selecionar elementos, o que demanda maior custo computacional.
+Por outro lado, o Selenium é uma ferramenta de renderização de páginas da Web de uso geral, originalmente projetada para testes automatizados. Em outras palavras, o Selenium atua como um webdriver, permitindo a execução de scripts de teste para simular os possíveis comportamentos de um usuário real no navegador. É uma opção adequada para Web Scraping quando a página possui conteúdo dinâmico e requer interações, como clicar em botões e selecionar elementos, o que exige mais poder de processamento.
 
